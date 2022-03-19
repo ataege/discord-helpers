@@ -10,7 +10,7 @@
     "strictNullChecks": true,
     "noUncheckedIndexedAccess": true,
     "rootDir": "./lib",
-    "outDir": "build/esm",
+    "outDir": "build",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "declaration": true,
