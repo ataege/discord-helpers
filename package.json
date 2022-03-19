@@ -1,6 +1,6 @@
 {
-  "name": "@crew22/discord-helpers",
-  "version": "0.1.6",
+  "name": "discordjs-helpers",
+  "version": "0.2.6",
   "description": "discord.js helper functions for crew22.",
   "main": "./build/index.js",
   "module": "./build/index.js",
