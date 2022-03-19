@@ -8,10 +8,10 @@ export function messageHandler(client: Client, message: Message) {
 
 	const commandName = message.content.split(" ")[0]!.slice(1).toLowerCase();
 	const command =
-		commands.get(commandName) ??
-		// @ts-ignore
-		commands.find((c) => c.aliases?.includes(commandName)) ??
-		null;
+    commands.get(commandName) ??
+    // @ts-ignore
+    commands.find((c) => c.aliases?.includes(commandName)) ??
+    null;
 
 	if (!command) {
 		if (client.config?.invalidCommandMessage) {
