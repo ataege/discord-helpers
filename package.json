@@ -1,6 +1,6 @@
 {
   "name": "discordjs-helpers",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "discord.js helper functions for crew22.",
   "main": "./build/index.js",
   "module": "./build/index.js",
@@ -27,8 +27,8 @@
   ],
   "exports": {
     ".": {
-      "import": "./build/esm/index.js",
-      "require": "./build/cjs/index.js"
+      "import": "./build/index.js",
+      "require": "./build/index.js"
     }
   },
   "author": "github.com/ataege",
