@@ -10,7 +10,7 @@
   "scripts": {
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
-    "lint": "eslint -p tsconfig.json",
+    "lint": "eslint \"{src,apps,lib,test}/**/*.ts\" --fix",
     "prepare": "npm run build",
     "prepublishOnly": "npm run lint",
     "preversion": "npm run lint",
@@ -39,6 +39,7 @@
   "homepage": "https://github.com/ataege/discord-helpers#readme",
   "dependencies": {
     "@types/node": "^17.0.21",
+    "@typescript-eslint/eslint-plugin": "^5.15.0",
     "discord.js": ">=13 || ^13.0.0-dev",
     "glob": "^7.2.0",
     "reflect-metadata": "^0.1.13",
